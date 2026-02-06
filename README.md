@@ -1,4 +1,4 @@
-# pmprompt Skills (Claude Code plugin)
+# Claude Code Product Management Plugin
 
 A public **Claude Code plugin** that packages the product management skills from **pmprompt**.
 
