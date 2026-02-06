@@ -1,4 +1,4 @@
-# Claude plugin for product managers (pmprompt)
+# Claude plugin for product managers
 
 A free / open source [**Claude plugin for product managers**](https://pmprompt.com/claude-product-management-plugin).
 
