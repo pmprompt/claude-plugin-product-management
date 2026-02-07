@@ -1,15 +1,20 @@
 # Claude plugin for product managers
 
-A free / open source [**Claude plugin for product managers**](https://pmprompt.com/claude-product-management-plugin).
+A free / open source **Claude plugin for product managers**.
+
+Created by Andy Brudtkuhl ([@abrudtkuhl](https://x.com/abrudtkuhl)).
+
+Start here: https://pmprompt.com/claude-product-management-plugin
 
 It works with:
-- **Claude Cowork**
+- **Claude plugins** (directory): https://claude.com/plugins
+- **Cowork plugins**: https://claude.com/blog/cowork-plugins
 - **Claude Code** (terminal)
-- **Cowork** (Claude’s knowledge-work experience)
 
 Links:
+- Landing page: https://pmprompt.com/claude-product-management-plugin
 - Skills library: https://pmprompt.com/skills
-- Guide: https://pmprompt.com/blog/ai-agent-skills-guide
+- Agent skills guide: https://pmprompt.com/blog/ai-agent-skills-guide
 - Repo: https://github.com/pmprompt/claude-plugin-product-management
 
 ## What this is
@@ -28,7 +33,7 @@ Once installed, these skills show up under the `pmprompt` namespace:
 
 ```bash
 git clone https://github.com/pmprompt/claude-plugin-product-management.git
-cd skills
+cd claude-plugin-product-management
 claude --plugin-dir .
 ```
 
@@ -85,6 +90,12 @@ If you want to add the marketplace directly in Claude Code:
 
 - Plugin manifest: `.claude-plugin/plugin.json`
 - Marketplace metadata: `.claude-plugin/marketplace.json`
+
+## Inspiration / credits
+
+This plugin is inspired by the community ecosystem around Claude skills/plugins, including:
+- Corey Haines’ Marketing Skills for Claude Code: https://github.com/coreyhaines31/marketingskills
+- Firecrawl’s Claude plugin (MCP + plugin pattern): https://github.com/firecrawl/firecrawl-claude-plugin
 
 ## Safety / scope
 
