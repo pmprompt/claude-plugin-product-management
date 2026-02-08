@@ -2,8 +2,6 @@
 
 A free / open source **Claude plugin for product managers**.
 
-Created by Andy Brudtkuhl ([@abrudtkuhl](https://x.com/abrudtkuhl)).
-
 Start here: https://pmprompt.com/claude-product-management-plugin
 
 It works with:
@@ -101,3 +99,7 @@ This plugin is inspired by the community ecosystem around Claude skills/plugins,
 ## Safety / scope
 
 This repo intentionally contains **no internal operating workflows**, private IDs, tokens, or customer data.
+
+---
+
+Created by Andy Brudtkuhl ([@abrudtkuhl](https://x.com/abrudtkuhl)).
