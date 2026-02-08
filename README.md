@@ -96,6 +96,7 @@ If you want to add the marketplace directly in Claude Code:
 This plugin is inspired by the community ecosystem around Claude skills/plugins, including:
 - Corey Haines’ Marketing Skills for Claude Code: https://github.com/coreyhaines31/marketingskills
 - Firecrawl’s Claude plugin (MCP + plugin pattern): https://github.com/firecrawl/firecrawl-claude-plugin
+- rjs/shaping-skills (conceptual inspiration for shaping/breadboarding): https://github.com/rjs/shaping-skills
 
 ## Safety / scope
 

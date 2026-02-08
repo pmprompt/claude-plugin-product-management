@@ -2,6 +2,11 @@
 
 All notable changes to this Claude plugin will be documented here.
 
+## [0.3.0] - 2026-02-08
+
+### Added
+- Added `/pmprompt:shaping` and `/pmprompt:breadboarding` skills (original implementations; inspired by rjs/shaping-skills)
+
 ## [0.2.0] - 2026-02-06
 
 ### Changed

@@ -57,7 +57,9 @@
         "./skills/thinking-in-bets",
         "./skills/trustworthy-experiments",
         "./skills/user-feedback-synthesizer",
-        "./skills/working-backwards"
+        "./skills/working-backwards",
+        "./skills/shaping",
+        "./skills/breadboarding"
       ]
     }
   ]
