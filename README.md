@@ -27,7 +27,17 @@ Once installed, these skills show up under the `pmprompt` namespace:
 
 ## Install
 
-### Option 1: Claude Code (local dev / from GitHub)
+### Option 1: Install skills directly (skills.sh / Skills CLI)
+
+If you just want the **skills**, you can install them directly via the Skills CLI:
+
+```bash
+npx skills add pmprompt/claude-plugin-product-management
+```
+
+Browse the directory: https://skills.sh
+
+### Option 2: Claude Code (local dev / from GitHub)
 
 ```bash
 git clone https://github.com/pmprompt/claude-plugin-product-management.git
