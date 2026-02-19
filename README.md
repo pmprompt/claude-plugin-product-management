@@ -19,6 +19,11 @@ Links:
 
 Plugins bundle skills/commands so you can install them once and reuse them across projects.
 
+### Examples (use cases)
+1) Turn a messy feature idea into a shippable PRD (problem, goals, scope/non-goals, risks, edge cases, “done when”).
+2) Generate user stories + acceptance criteria (ready to paste into Jira/Linear).
+3) Write a crisp stakeholder update (highlights, risks, asks).
+
 Once installed, these skills show up under the `pmprompt` namespace:
 
 - `/pmprompt:prd-writer`
