@@ -55,6 +55,16 @@ Then run any skill:
 - `/pmprompt:feature-prioritization-assistant`
 - `/pmprompt:positioning-canvas`
 
+### Option 3: Codex
+
+This repository includes Codex plugin metadata for the same PM skills:
+
+```bash
+codex plugin marketplace add https://github.com/pmprompt/claude-plugin-product-management
+```
+
+Then install **pmprompt** from the Codex Plugins UI.
+
 ## Skills included
 
 | Skill | Description |
@@ -103,6 +113,21 @@ If you want to add the marketplace directly in Claude Code:
 
 - Plugin manifest: `.claude-plugin/plugin.json`
 - Marketplace metadata: `.claude-plugin/marketplace.json`
+- Codex plugin manifest: `.codex-plugin/plugin.json`
+- Codex marketplace metadata: `.agents/plugins/marketplace.json`
+
+## Evals and production telemetry
+
+The `evals/product-management/` directory contains a small human-review eval set
+for PRD writing, roadmap prioritization, and stakeholder updates. The cases are
+harness-neutral so the same plugin behavior can be checked in Claude Code,
+Cowork, Codex, or another agent workspace.
+
+If you publish the plugin through Telvine, keep runtime telemetry metadata-only:
+`skill.invocation.start`, `skill.invocation.end`, and `skill.invocation.error`
+for skill behavior, plus `plugin.component.invoked` and
+`plugin.component.error` for non-skill components. Do not emit prompts, customer
+feedback text, private roadmap material, tool arguments, or model outputs.
 
 ## Inspiration / credits
 
