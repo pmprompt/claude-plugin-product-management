@@ -88,8 +88,6 @@ Then run any skill:
 
 ## Install (via plugin directory / marketplace)
 
-If/when you find this plugin in the Claude plugin directory, install it from there.
-
 Install in one step in Claude Code (2.1.275 or later):
 
 ```text
