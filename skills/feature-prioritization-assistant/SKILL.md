@@ -1,7 +1,7 @@
 ---
 name: feature-prioritization-assistant
-description: Calculate RICE scores and prioritize features systematically. Use when building your product roadmap and need to make data-driven prioritization decisions.
-argument-hint: [features to evaluate]
+description: "Calculate RICE scores and prioritize features systematically. Use when building your product roadmap and need to make data-driven prioritization decisions."
+argument-hint: "[features to evaluate]"
 ---
 
 ## Domain Context

@@ -1,7 +1,7 @@
 ---
 name: ab-test-designer
-description: Design robust A/B test experiments. Use when testing a new feature, validating a hypothesis, or optimizing conversion rates.
-argument-hint: [feature/change to test]
+description: "Design robust A/B test experiments. Use when testing a new feature, validating a hypothesis, or optimizing conversion rates."
+argument-hint: "[feature/change to test]"
 ---
 
 ## Domain Context

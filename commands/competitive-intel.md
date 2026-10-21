@@ -1,3 +1,8 @@
+---
+description: "Deep competitive analysis from positioning to strategic moats."
+argument-hint: "[market or category]"
+---
+
 # /competitive-intel — Competitive Intelligence Workflow
 
 Deep competitive analysis from positioning to strategic moats.

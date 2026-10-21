@@ -1,3 +1,8 @@
+---
+description: "Comprehensive product requirements document from feature idea to implementation plan."
+argument-hint: "[feature name or description]"
+---
+
 # /write-prd — PRD Creation Workflow
 
 Comprehensive product requirements document from feature idea to implementation plan.

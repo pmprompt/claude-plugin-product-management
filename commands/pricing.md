@@ -1,3 +1,8 @@
+---
+description: "Design pricing that captures value and validates willingness to pay."
+argument-hint: "[product or feature]"
+---
+
 # /pricing — Pricing Strategy Workflow
 
 Design pricing that captures value and validates willingness to pay.

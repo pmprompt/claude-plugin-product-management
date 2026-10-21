@@ -1,3 +1,8 @@
+---
+description: "Structured product discovery from problem to validated experiments."
+argument-hint: "[product idea or problem statement]"
+---
+
 # /discover — Product Discovery Workflow
 
 Structured product discovery from problem to validated experiments.

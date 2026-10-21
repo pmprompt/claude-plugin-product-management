@@ -1,3 +1,8 @@
+---
+description: "Complete product strategy from positioning to defensibility."
+argument-hint: "[product or market]"
+---
+
 # /strategy — Product Strategy Workflow
 
 Complete product strategy from positioning to defensibility.

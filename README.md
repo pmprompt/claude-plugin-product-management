@@ -90,11 +90,17 @@ Then run any skill:
 
 If/when you find this plugin in the Claude plugin directory, install it from there.
 
-If you want to add the marketplace directly in Claude Code:
+Install in one step in Claude Code (2.1.275 or later):
+
+```text
+/plugin install pmprompt --marketplace pmprompt/claude-plugin-product-management
+```
+
+Or add the marketplace first, then install:
 
 ```text
 /plugin marketplace add pmprompt/claude-plugin-product-management
-/plugin install pmprompt
+/plugin install pmprompt@pmprompt-skills
 ```
 
 (Exact install UI may vary between Claude Code and Cowork.)
@@ -104,7 +110,19 @@ If you want to add the marketplace directly in Claude Code:
 - Plugin manifest: `.claude-plugin/plugin.json`
 - Marketplace metadata: `.claude-plugin/marketplace.json`
 
+## Workflow commands
+
+The plugin also ships 9 workflow commands (for example `/pmprompt:discover`, `/pmprompt:write-prd`) that chain several skills together. See [docs/commands.md](docs/commands.md).
+
 ## Inspiration / credits
+
+Many of the framework skills (20 of them, listed in [NOTICE](NOTICE)) are adapted from David Turner's [product-skills](https://github.com/wdavidturner/product-skills), used under the MIT License:
+
+> MIT License
+>
+> Copyright (c) 2025 David Turner
+
+The full license text and the list of adapted skills are in [NOTICE](NOTICE).
 
 This plugin is inspired by the community ecosystem around Claude skills/plugins, including:
 - Corey Haines’ Marketing Skills for Claude Code: https://github.com/coreyhaines31/marketingskills

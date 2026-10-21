@@ -56,7 +56,7 @@ Each command file includes:
 
 ## Creating New Commands
 
-See `CONTRIBUTING.md` for command creation guidelines. Key principles:
+See [`CONTRIBUTING.md`](../CONTRIBUTING.md) for command creation guidelines. Key principles:
 - Commands orchestrate, skills execute
 - Clear handoffs between steps
 - Suggest next commands at the end

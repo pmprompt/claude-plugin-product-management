@@ -1,3 +1,8 @@
+---
+description: "Structured OKR creation aligned with company objectives."
+argument-hint: "[team and context]"
+---
+
 # /okr-planning — OKR Planning Workflow
 
 Structured OKR creation aligned with company objectives.
