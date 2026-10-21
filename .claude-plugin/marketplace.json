@@ -29,38 +29,7 @@
         "shape-up",
         "positioning"
       ],
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/ab-test-designer",
-        "./skills/competitive-analysis-framework",
-        "./skills/design-sprint",
-        "./skills/feature-prioritization-assistant",
-        "./skills/growth-loops",
-        "./skills/hierarchy-of-engagement",
-        "./skills/hierarchy-of-marketplaces",
-        "./skills/hooked-model",
-        "./skills/jobs-to-be-done",
-        "./skills/monetizing-innovation",
-        "./skills/okrs",
-        "./skills/opportunity-solution-trees",
-        "./skills/pmf-survey",
-        "./skills/positioning-canvas",
-        "./skills/prd-writer",
-        "./skills/product-led-growth",
-        "./skills/product-led-seo",
-        "./skills/radical-candor",
-        "./skills/seven-powers",
-        "./skills/shape-up",
-        "./skills/stakeholder-update-generator",
-        "./skills/strategic-narrative",
-        "./skills/thinking-in-bets",
-        "./skills/trustworthy-experiments",
-        "./skills/user-feedback-synthesizer",
-        "./skills/working-backwards",
-        "./skills/shaping",
-        "./skills/breadboarding"
-      ]
+      "source": "./"
     }
   ]
 }

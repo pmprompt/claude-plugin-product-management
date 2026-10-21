@@ -2,6 +2,11 @@
 
 All notable changes to this Claude plugin will be documented here.
 
+## [Unreleased]
+
+### Fixed
+- Plugin failed to load in current Claude Code with "conflicting manifests" because the marketplace entry set `strict: false` and also listed `skills` while the plugin ships its own `plugin.json`. The entry no longer declares components; skills and commands are discovered from `skills/` and `commands/` (#4)
+
 ## [0.3.0] - 2026-02-08
 
 ### Added
