@@ -1,7 +1,7 @@
 ---
 name: prd-writer
-description: Generate comprehensive product requirements documents. Use when starting a new feature or product initiative and need structured documentation.
-argument-hint: [feature name]
+description: "Generate comprehensive product requirements documents. Use when starting a new feature or product initiative and need structured documentation."
+argument-hint: "[feature name]"
 ---
 
 ## Domain Context

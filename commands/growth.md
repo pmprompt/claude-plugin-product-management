@@ -1,3 +1,8 @@
+---
+description: "Design self-reinforcing growth loops and retention mechanics."
+argument-hint: "[product]"
+---
+
 # /growth — Growth Strategy Workflow
 
 Design self-reinforcing growth loops and retention mechanics.

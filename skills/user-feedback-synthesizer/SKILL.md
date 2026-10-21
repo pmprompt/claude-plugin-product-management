@@ -1,7 +1,7 @@
 ---
 name: user-feedback-synthesizer
-description: Analyze collections of user feedback to identify patterns and themes. Use when you have user feedback from multiple sources that needs synthesis.
-argument-hint: [feedback data]
+description: "Analyze collections of user feedback to identify patterns and themes. Use when you have user feedback from multiple sources that needs synthesis."
+argument-hint: "[feedback data]"
 ---
 
 ## Domain Context

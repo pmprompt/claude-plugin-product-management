@@ -1,6 +1,6 @@
 ---
 name: breadboarding
-description: Turn a shaped solution into a breadboard: user actions, UI affordances, system responsibilities, and wiring so it can be sliced and implemented.
+description: "Turn a shaped solution into a breadboard: user actions, UI affordances, system responsibilities, and wiring so it can be sliced and implemented."
 ---
 
 ## Domain Context

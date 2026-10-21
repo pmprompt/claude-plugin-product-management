@@ -1,7 +1,7 @@
 {
   "name": "pmprompt",
   "description": "Claude plugin for product managers: reusable PM skills (PRDs, roadmaps, prioritization, positioning) for Claude Code and Cowork.",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "author": {
     "name": "pmprompt",
     "url": "https://pmprompt.com"

@@ -1,7 +1,7 @@
 ---
 name: stakeholder-update-generator
-description: Create compelling progress updates and release notes. Use when shipping a new feature or need to communicate progress to stakeholders.
-argument-hint: [product/feature/sprint changes]
+description: "Create compelling progress updates and release notes. Use when shipping a new feature or need to communicate progress to stakeholders."
+argument-hint: "[product/feature/sprint changes]"
 ---
 
 ## Domain Context

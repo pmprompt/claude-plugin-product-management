@@ -1,7 +1,7 @@
 ---
 name: competitive-analysis-framework
-description: Create detailed competitive analysis and positioning. Use when launching a new product, planning positioning, or identifying differentiation opportunities.
-argument-hint: [your product] [competitor 1] [competitor 2] [competitor 3]
+description: "Create detailed competitive analysis and positioning. Use when launching a new product, planning positioning, or identifying differentiation opportunities."
+argument-hint: "[your product] [competitor 1] [competitor 2] [competitor 3]"
 ---
 
 ## Domain Context

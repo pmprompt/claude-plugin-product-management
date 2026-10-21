@@ -6,8 +6,7 @@
   },
   "metadata": {
     "description": "Claude plugin for product managers: reusable PM skills for Claude Code and Cowork.",
-    "version": "0.2.0",
-    "repository": "https://github.com/pmprompt/claude-plugin-product-management"
+    "version": "0.4.0"
   },
   "plugins": [
     {

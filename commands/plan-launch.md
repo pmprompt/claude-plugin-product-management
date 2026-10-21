@@ -1,3 +1,8 @@
+---
+description: "End-to-end launch planning from positioning to post-launch metrics."
+argument-hint: "[product or feature]"
+---
+
 # /plan-launch — Product Launch Workflow
 
 End-to-end launch planning from positioning to post-launch metrics.

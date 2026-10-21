@@ -1,3 +1,8 @@
+---
+description: "Fast, rigorous validation before building."
+argument-hint: "[product or feature idea]"
+---
+
 # /validate-idea — Idea Validation Workflow
 
 Fast, rigorous validation before building.

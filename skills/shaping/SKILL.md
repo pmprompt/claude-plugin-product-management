@@ -1,6 +1,6 @@
 ---
 name: shaping
-description: Shape a product initiative before building: clarify the problem, explore solution approaches, choose a shape, and define what “done” means.
+description: "Shape a product initiative before building: clarify the problem, explore solution approaches, choose a shape, and define what “done” means."
 ---
 
 ## Domain Context
