@@ -55,6 +55,19 @@ Then run any skill:
 - `/pmprompt:feature-prioritization-assistant`
 - `/pmprompt:positioning-canvas`
 
+### Option 3: Codex
+
+This repository includes Codex plugin metadata (`.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json`) for the same PM skills. Add the marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add pmprompt/claude-plugin-product-management
+codex plugin add pmprompt@pmprompt-skills
+```
+
+Or, after adding the marketplace, install **pmprompt** from the Codex Plugins UI. Codex also turns the workflow commands in `commands/` into skills.
+
+To try a local checkout instead, run `codex plugin marketplace add .` from the repo root.
+
 ## Skills included
 
 | Skill | Description |
@@ -109,6 +122,14 @@ Or add the marketplace first, then install:
 
 - Plugin manifest: `.claude-plugin/plugin.json`
 - Marketplace metadata: `.claude-plugin/marketplace.json`
+- Codex plugin manifest: `.codex-plugin/plugin.json`
+- Codex marketplace metadata: `.agents/plugins/marketplace.json`
+
+When you bump the version, change it in all three places: `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, and `.codex-plugin/plugin.json`.
+
+## Evals
+
+`evals/product-management/` has a human-review eval set with at least one case for every skill (`cases.jsonl`) and a scoring rubric (`rubric.md`). The cases are harness-neutral, so the same plugin behavior can be checked in Claude Code, Cowork, Codex, or another agent workspace. Run `python3 evals/product-management/check_cases.py` to check that every skill has a case.
 
 ## Workflow commands
 
