@@ -1,0 +1,43 @@
+{
+  "name": "pmprompt",
+  "version": "0.5.0",
+  "description": "Product management skills for Codex: PRDs, roadmaps, prioritization, positioning, and AI agent specs.",
+  "author": {
+    "name": "pmprompt",
+    "url": "https://pmprompt.com"
+  },
+  "homepage": "https://pmprompt.com/claude-product-management-plugin",
+  "repository": "https://github.com/pmprompt/claude-plugin-product-management",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "codex-plugin",
+    "agent-skills",
+    "product-management",
+    "prd",
+    "roadmap",
+    "prioritization",
+    "jobs-to-be-done",
+    "shape-up",
+    "positioning"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pmprompt",
+    "shortDescription": "Product management skills for agents.",
+    "longDescription": "30 reusable product management skills: PRDs, RICE prioritization, positioning, JTBD, Shape Up and shaping, OKRs, experiments and A/B tests, PMF surveys, growth loops, PLG, pricing, competitive analysis, user feedback synthesis, stakeholder updates, AI agent specs, and AI ship bars.",
+    "developerName": "pmprompt",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://pmprompt.com/claude-product-management-plugin",
+    "defaultPrompt": [
+      "Turn this feature idea into a PRD.",
+      "Prioritize these roadmap options.",
+      "Draft a stakeholder update."
+    ],
+    "brandColor": "#111827"
+  }
+}

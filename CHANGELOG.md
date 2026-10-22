@@ -4,6 +4,10 @@ All notable changes to this Claude plugin will be documented here.
 
 ## [Unreleased]
 
+### Added
+- Codex support: a Codex plugin manifest (`.codex-plugin/plugin.json`, version 0.5.0, same name, description, author, links, license, and keywords as `.claude-plugin/plugin.json`) and a repo marketplace (`.agents/plugins/marketplace.json`), plus Codex install steps in the README. Thanks to @rforgeon, whose #3 first added these
+- `evals/product-management/`: 35 harness-neutral eval cases covering all 30 skills, a scoring rubric with pass/fail rules, and `check_cases.py` to check that every skill has a case. Builds on the eval format from @rforgeon's #3
+
 ## [0.5.0] - 2026-10-21
 
 ### Added
