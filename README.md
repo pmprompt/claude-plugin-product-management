@@ -60,6 +60,8 @@ Then run any skill:
 | Skill | Description |
 |------|-------------|
 | [ab-test-designer](skills/ab-test-designer/) | Design robust A/B test experiments. Use when testing a new feature, validating a hypothesis, or optimizing conversion rates. |
+| [agent-spec-generator](skills/agent-spec-generator/) | Write a production-ready spec for an AI agent: scope, tools and permissions, autonomy levels, stop rules, escalation, failure modes, evals, and rollout. Use when you are about to build, buy, or expand an AI agent. |
+| [ai-ship-bar](skills/ai-ship-bar/) | Define a measurable quality bar for shipping an AI feature: task completion, precision and recall, p95 latency, cost per successful request, eval set design, sign-off, regression gates, and post-launch monitoring. |
 | [competitive-analysis-framework](skills/competitive-analysis-framework/) | Create detailed competitive analysis and positioning. Use when launching a new product, planning positioning, or identifying differentiation opportunities. |
 | [design-sprint](skills/design-sprint/) | Use when asked to "run a design sprint", "5-day sprint", "prototype in a week", "test ideas before building", or "Jake Knapp sprint". Helps teams go from problem to tested prototype in five days. The Design Sprint framework (created by Jake Knapp at Google Ventures) compresses months of work into one focused week. |
 | [feature-prioritization-assistant](skills/feature-prioritization-assistant/) | Calculate RICE scores and prioritize features systematically. Use when building your product roadmap and need to make data-driven prioritization decisions. |
