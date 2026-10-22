@@ -31,7 +31,10 @@ for n, line in enumerate((HERE / "cases.jsonl").read_text(encoding="utf-8").spli
     if case["id"] in seen:
         errors.append(f"line {n}: duplicate id {case['id']}")
     seen.add(case["id"])
-    skill = case["id"].split(":", 1)[0]
+    skill, sep, name = case["id"].partition(":")
+    if not sep or not name.strip():
+        errors.append(f"line {n}: id {case['id']} must be <skill>:<case>")
+        continue
     if skill not in skills:
         errors.append(f"line {n}: id {case['id']} names unknown skill {skill}")
     counts[skill] += 1
