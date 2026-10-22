@@ -53,7 +53,7 @@ If correctness needs judgment, write the rubric (3–5 criteria, each pass/fail)
 ### Step 3 — Pick the metrics that fit this feature
 Not every metric applies. Keep the ones that do and say why the others don't.
 - **Task completion rate**: share of eval cases graded as success
-- **Precision and recall**: for anything that classifies, flags, retrieves, or extracts. Choose which one to protect based on Step 1, question 4
+- **Precision and recall**: for anything that classifies, flags, retrieves, or extracts. Precision is measured on the items the feature flagged; recall is measured against every labeled positive in the eval set, including the ones the feature missed. Choose which one to protect based on Step 1, question 4
 - **Harmful or must-never output rate**: target is usually zero on the must-pass set
 - **Refusal accuracy**: answers what it should, declines what it should
 - **p95 latency** (and p50): measured end to end, as the user experiences it
@@ -70,7 +70,7 @@ Not every metric applies. Keep the ones that do and say why the others don't.
 - **Refresh:** add every production failure as a new case
 
 ### Step 5 — Set thresholds and owners
-For each metric: the threshold, the eval slice it is measured on, the owner, and whether missing it blocks launch or needs a written exception.
+For each metric: the threshold, the eval slice it is measured on, the owner, and whether missing it blocks launch or needs a written exception. Must-pass cases (safety, privacy, legal, money) always block launch and can never be waived by an exception.
 
 ### Step 6 — Set regression gates
 Decide which changes re-run the evals (model version, prompt, retrieval, tools, settings) and how much a metric may drop before the change is blocked.
@@ -125,7 +125,7 @@ One case in the golden set = [x] percentage points.
 | Eng lead | latency, cost, reliability | | |
 | [Legal / Trust] | must-pass set | | |
 
-A missed blocking threshold ships only with a written exception from [role], with an expiry date. Must-pass failures are never eligible for an exception.
+A missed blocking threshold ships only with a written exception from [role], with an expiry date. This exception rule does not apply to the must-pass set: a single safety, privacy, legal, or money must-pass failure blocks launch, with no exception.
 
 ## 6. Regression gates
 - Re-run the full eval on: [model change, prompt change, retrieval change, tool change]
