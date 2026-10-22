@@ -101,8 +101,8 @@ EXAMPLE THRESHOLDS ONLY. Replace with numbers your team agrees on.
 | Metric | Threshold (example) | Measured on | Blocks launch? | Owner |
 |---|---|---|---|---|
 | Task completion rate | ≥ 85% | golden set | yes | [PM] |
-| Precision | ≥ 0.90 | flagged items | yes | [DS] |
-| Recall | ≥ 0.75 | flagged items | no, needs exception | [DS] |
+| Precision | ≥ 0.90 | items the feature flagged | yes | [DS] |
+| Recall | ≥ 0.75 | all labeled positives in the golden set | no, needs exception | [DS] |
 | Must-pass cases | 100% | must-pass set | yes | [PM + legal] |
 | Refusal accuracy | ≥ 95% | adversarial set | yes | [PM] |
 | p95 latency | ≤ 4 s end to end | load test | yes | [Eng] |
@@ -125,7 +125,7 @@ One case in the golden set = [x] percentage points.
 | Eng lead | latency, cost, reliability | | |
 | [Legal / Trust] | must-pass set | | |
 
-A missed blocking threshold ships only with a written exception from [role], with an expiry date.
+A missed blocking threshold ships only with a written exception from [role], with an expiry date. Must-pass failures are never eligible for an exception.
 
 ## 6. Regression gates
 - Re-run the full eval on: [model change, prompt change, retrieval change, tool change]
