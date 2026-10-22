@@ -1,7 +1,7 @@
 {
   "name": "pmprompt",
   "version": "0.5.0",
-  "description": "Claude plugin for product managers: reusable PM skills (PRDs, roadmaps, prioritization, positioning) for Claude Code and Cowork.",
+  "description": "Product management skills for Codex: PRDs, roadmaps, prioritization, positioning, and AI agent specs.",
   "author": {
     "name": "pmprompt",
     "url": "https://pmprompt.com"
@@ -10,10 +10,9 @@
   "repository": "https://github.com/pmprompt/claude-plugin-product-management",
   "license": "MIT",
   "keywords": [
-    "claude",
-    "claude-plugin",
-    "claude-code",
-    "cowork",
+    "codex",
+    "codex-plugin",
+    "agent-skills",
     "product-management",
     "prd",
     "roadmap",
