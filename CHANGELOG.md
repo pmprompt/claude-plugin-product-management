@@ -4,6 +4,15 @@ All notable changes to this Claude plugin will be documented here.
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-10-21
+
+### Added
+- `/pmprompt:agent-spec-generator`: interviews you, then writes a spec for an AI agent covering scope, tools and permissions, autonomy levels (suggest only, act with approval, act and notify, fully autonomous) with criteria for each, approval boundaries, stop rules, escalation, memory, data access, failure modes, must-never-do rules, evals, observability, and rollout
+- `/pmprompt:ai-ship-bar`: a ship-bar doc for AI features with task completion, precision and recall, p95 latency, cost per successful request, eval set design, thresholds and sign-off, regression gates, and post-launch monitoring. Example thresholds are labeled as examples
+
+### Changed
+- Version bumped to 0.5.0 in `plugin.json` and `marketplace.json`, so `claude plugin update` delivers the two new skills to existing installs
+
 ## [0.4.0] - 2026-10-21
 
 ### Fixed
