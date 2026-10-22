@@ -8,6 +8,8 @@ Each line in `cases.jsonl` is one case with three fields:
 
 The cases are harness-neutral, so the same plugin behavior can be checked in Claude Code, Cowork, Codex, or another agent workspace. Every skill in `skills/` has at least one case; `python3 evals/product-management/check_cases.py` checks that.
 
+Each case is a single user turn. Grade the agent's first response to `input`; the grader does not supply follow-up answers. When a skill interviews first and the prompt leaves its questions unanswered (for example `agent-spec-generator:interview-first` or `ai-ship-bar:support-summarizer`), `expected_outcome` describes that interview, not the finished document. When a case expects a finished document from an interviewing skill, its `input` already answers the questions or says how to treat the gaps.
+
 Score each case from 1-5 on the four criteria below, then mark it pass or fail against `expected_outcome`.
 
 ## Framework fit
